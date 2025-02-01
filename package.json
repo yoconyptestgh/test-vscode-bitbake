@@ -921,7 +921,7 @@
     "globals": "^15.14.0",
     "jest": "^29.7.0",
     "mocha": "^10.7.3",
-    "ovsx": "^0.9.5",
+    "ovsx": "^0.10.1",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.19.0",
