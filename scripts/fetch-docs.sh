@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Tag: yocto-5.1.1
-BITBAKE_DOCS_COMMIT=846cf0555c1e56c8cdfa86fbfb5fdb1a46d7cbcf
-# Tag: yocto-5.1.1
-YOCTO_DOCS_COMMIT=9d9fde97364655b1b29398cc2f3742b44839fb39
+# Tag: yocto-5.1.2
+BITBAKE_DOCS_COMMIT=db1eccf286a162d12a56600eb7e59322f8c08b2f
+# Tag: yocto-5.1.2
+YOCTO_DOCS_COMMIT=77f1205b6bc7879249c94c605ed7e07c12fdd40a
 
 BITBAKE_DOCS_LIST="bitbake-user-manual-metadata.rst bitbake-user-manual-ref-variables.rst"
 YOCTO_DOCS_LIST=" tasks.rst variables.rst"
