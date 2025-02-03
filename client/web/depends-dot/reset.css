@@ -19,6 +19,8 @@ h5,
 h6,
 p,
 ol,
+input,
+label,
 ul {
 	margin: 0;
 	padding: 0;

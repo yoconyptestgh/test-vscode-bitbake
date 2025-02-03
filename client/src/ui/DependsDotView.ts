@@ -198,7 +198,7 @@ class DependsDotViewProvider implements vscode.WebviewViewProvider {
 	private openRecipe(recipeName: string) {
 		recipeName = recipeName.replace(/\r/g, '');
 		let recipeFound = false;
-		this.bitbakeProjectScanner.scanResult._recipes.forEach((recipe: ElementInfo) => {
+		this.bitbakeProjectScanner.activeScanResult._recipes.forEach((recipe: ElementInfo) => {
 			// TODO fix resolving -native recipes (put that logic in a utility function) (could be shared with BitbakeRecipesView.getChildren)
 			// TODO fix resolving some packages like xz or busybox (only when in the bottom row?)
 			if (recipe.name === recipeName) {

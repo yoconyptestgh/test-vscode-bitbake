@@ -9,3 +9,9 @@ body {
 	background: var(--vscode-list-hoverBackground);
 	cursor: pointer;
 }
+
+.inputHorizontal {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    padding: 0;
+}

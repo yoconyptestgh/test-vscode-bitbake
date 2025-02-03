@@ -41,10 +41,14 @@
 
 				<div>
 					<h3>You want to know:</h3>
-					<ul id="depType">
-						<li><input type="radio" name="dependencyType" value="why" checked><h3><b>Why</b> a package is included</h3></li>
-						<li><input type="radio" name="dependencyType" value="depends"><h3>What it <b>Depends</b> on</h3></li>
-					</ul>
+					<div class="inputHorizontal"></div>
+						<input type="radio" id="why" name="dependencyType" value="why" checked>
+						<label for="why"><h3><b>Why</b> a package is included</h3></label>
+					</div>
+					<div class="horizontal">
+						<input type="radio" id="depends" name="dependencyType" value="depends">
+						<label for="depends"><h3>What it <b>Depends</b> on</h3></label>
+					</div>
 				</div>
 
 				<div>
@@ -57,9 +61,10 @@
 				</div>
 
 				<div>
+					<hr>
 					<h3>Results:</h3>
-				</div>
-				<div id="results">
+					<div id="results">
+					</div>
 				</div>
 
 				<script nonce="<%= nonce %>" src="<%= scriptUri %>"></script>
